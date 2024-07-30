@@ -1,6 +1,6 @@
-my_string = "строка с текстом"
-n = len(my_string)
-print(n)
+my_string = input("Введите строку: ")
+n = len(my_string) # подсчет количества символов строки
+print(n) # вывод количества символов
 print(my_string.upper()) # строка в верхнем регистре
 print(my_string.lower()) # строка в нижнем регистре
 print(my_string.replace(" ", "")) # строка без пробелов
